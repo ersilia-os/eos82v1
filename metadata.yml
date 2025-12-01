@@ -2,45 +2,30 @@ Identifier: eos82v1
 Slug: smi-ted
 Status: In progress
 Title: SMILES-based Transformer Encoder-Decoder
-Description: "SMILES-based Transformer Encoder-Decoder (SMILES-TED) is an encoder-decoder\
-  \ model pre-trained on a curated dataset of 91 million SMILES samples sourced from\
-  \ PubChem, equivalent to 4 billion molecular tokens. SMI-TED supports various complex\
-  \ tasks, including quantum property prediction, with two main variants ( 289 M \
-  \ and  8 \xD7 289 M ). SMI Ted has been developed by the IBM"
+Description: "SMILES-based Transformer Encoder-Decoder (SMILES-TED) is an encoder-decoder model pre-trained on a curated dataset of 91 million SMILES samples sourced from PubChem, equivalent to 4 billion molecular tokens. SMI-TED supports various complex tasks, including quantum property prediction, with two main variants (289 M and  8x289 M). SMI Ted has been developed by the IBM."
 Deployment:
 - Local
-- Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization, Projection,
-  Similarity search, Generation
+Source: Local
+Source Type: External
+Task: Representation
+Subtask: Featurization
 Input:
 - Compound
 Input Dimension: 1
 Output:
 - Value
-- Score
-- Compound
-- Probability
-- Experimental value
-- '...'
-Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: 'The output of this template model should be interpreted like this.
-
-  '
+Output Dimension: 768
+Output Consistency: Fixed
+Interpretation: 'Embedding of the molecule'
 Tag:
 - Embedding
 - Descriptor
 - Chemical language model
 Biomedical Area:
-- Biomedical Area 1
-- Biomedical Area 2
+- Any
 Target Organism:
-- Target Organism 1
-- Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
+- Any
+Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://www.nature.com/articles/s42004-025-01585-0
 Source Code: https://github.com/IBM/materials
