@@ -5,7 +5,7 @@ commands:
     - ["pip", "datasets", "4.4.1"]
     - ["pip", "scikit-learn", "1.7.2"]
     - ["pip", "scipy", "1.12.0"]
-    - ["pip", "pandas", "1.4.0"]
+    - ["pip", "pandas", "2.2.0"]
     - ["pip", "tqdm", "4.66.4"]
     - ["pip", "rdkit", "2025.9.1"]
     - ["pip", "numpy", "1.26.4"]
