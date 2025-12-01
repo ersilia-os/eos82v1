@@ -2,31 +2,37 @@ Identifier: eos82v1
 Slug: smi-ted
 Status: In progress
 Title: SMILES-based Transformer Encoder-Decoder
-Description: "SMILES-based Transformer Encoder-Decoder (SMILES-TED) is an encoder-decoder model pre-trained on a curated dataset of 91 million SMILES samples sourced from PubChem, equivalent to 4 billion molecular tokens. SMI-TED supports various complex tasks, including quantum property prediction, with two main variants (289 M and  8x289 M). SMI Ted has been developed by the IBM."
+Description: SMILES-based Transformer Encoder-Decoder (SMILES-TED) is an 
+  encoder-decoder model pre-trained on a curated dataset of 91 million SMILES 
+  samples sourced from PubChem, equivalent to 4 billion molecular tokens. 
+  SMI-TED supports various complex tasks, including quantum property prediction,
+  with two main variants (289 M and  8x289 M). SMI Ted has been developed by the
+  IBM.
 Deployment:
-- Local
+  - Local
 Source: Local
 Source Type: External
 Task: Representation
 Subtask: Featurization
 Input:
-- Compound
+  - Compound
 Input Dimension: 1
 Output:
-- Value
+  - Value
 Output Dimension: 768
 Output Consistency: Fixed
-Interpretation: 'Embedding of the molecule'
+Interpretation: Embedding of the molecule
 Tag:
-- Embedding
-- Descriptor
-- Chemical language model
+  - Embedding
+  - Descriptor
+  - Chemical language model
 Biomedical Area:
-- Any
+  - Any
 Target Organism:
-- Any
+  - Any
 Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://www.nature.com/articles/s42004-025-01585-0
 Source Code: https://github.com/IBM/materials
 License: Apache-2.0
+Incorporation Date: '2025-11-29'
