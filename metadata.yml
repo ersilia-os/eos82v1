@@ -1,6 +1,6 @@
 Identifier: eos82v1
 Slug: smi-ted
-Status: In progress
+Status: Ready
 Title: SMILES-based Transformer Encoder-Decoder
 Description: SMILES-based Transformer Encoder-Decoder (SMILES-TED) is an 
   encoder-decoder model pre-trained on a curated dataset of 91 million SMILES 
@@ -36,6 +36,18 @@ Publication: https://www.nature.com/articles/s42004-025-01585-0
 Source Code: https://github.com/IBM/materials
 License: Apache-2.0
 Incorporation Date: '2025-11-29'
+Last Packaging Date: '2025-12-01'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos82v1.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos82v1
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1103.0
 Environment Size: 7882.0
+Image Size: 11113.37
+Computational Performance 1: 34.02
+Computational Performance 2: 23.93
+Computational Performance 3: 33.18
+Computational Performance 4: 159.8
+Computational Performance 5: 709.99
