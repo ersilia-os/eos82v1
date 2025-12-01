@@ -36,3 +36,6 @@ Publication: https://www.nature.com/articles/s42004-025-01585-0
 Source Code: https://github.com/IBM/materials
 License: Apache-2.0
 Incorporation Date: '2025-11-29'
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos82v1.zip
+Model Size: 2205.0
+Environment Size: 7874.0
