@@ -2,7 +2,7 @@
 
 SMILES-based Transformer Encoder-Decoder (SMILES-TED) is an encoder-decoder model pre-trained on a curated dataset of 91 million SMILES samples sourced from PubChem, equivalent to 4 billion molecular tokens. SMI-TED supports various complex tasks, including quantum property prediction, with two main variants (289 M and  8x289 M). SMI Ted has been developed by the IBM.
 
-This model was incorporated on 2025-11-29.Last packaged on 2025-12-01.
+This model was incorporated on 2025-11-29.Last packaged on 2025-12-03.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 768 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1103`
 - **Environment Size (Mb):** `7882`
-- **Image Size (Mb):** `11113.37`
+- **Image Size (Mb):** `11113.45`
 
 **Computational Performance (seconds):**
-- 10 inputs: `34.02`
-- 100 inputs: `33.18`
-- 10000 inputs: `709.99`
+- 10 inputs: `32.74`
+- 100 inputs: `33.52`
+- 10000 inputs: `707.81`
 
 ### References
 - **Source Code**: [https://github.com/IBM/materials](https://github.com/IBM/materials)
