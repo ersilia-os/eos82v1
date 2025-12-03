@@ -1,11 +1,8 @@
 # imports
 import os
-import csv
 import sys
 import torch
 import numpy as np
-import struct
-import json
 from ersilia_pack_utils.core import read_smiles, write_out
 
 root = os.path.dirname(os.path.abspath(__file__))
@@ -38,4 +35,4 @@ outputs = df_embeddings_train.to_numpy() #obtain results as numpy array
 num_dims = df_embeddings_train.shape[1]
 header = [f"feat_{str(i).zfill(3)}" for i in range(num_dims)]
 
-write_out(results, header, output_file, np.float32)
+write_out(outputs, header, output_file, np.float32)
