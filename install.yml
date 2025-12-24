@@ -9,4 +9,4 @@ commands:
     - ["pip", "tqdm", "4.66.4"]
     - ["pip", "rdkit", "2025.9.1"]
     - ["pip", "numpy", "1.26.4"]
-    - ["pip", "ersilia-pack-utils", "0.1.2"]
+    - ["pip", "ersilia-pack-utils", "0.1.5"]
