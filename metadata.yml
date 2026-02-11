@@ -36,7 +36,7 @@ Publication: https://www.nature.com/articles/s42004-025-01585-0
 Source Code: https://github.com/IBM/materials
 License: Apache-2.0
 Incorporation Date: '2025-11-29'
-Last Packaging Date: '2025-12-24'
+Last Packaging Date: '2026-02-11'
 Release: v1.1.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos82v1.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos82v1
@@ -45,9 +45,9 @@ Docker Architecture:
   - ARM64
 Model Size: 1103.0
 Environment Size: 1940.0
-Image Size: 11117.23
-Computational Performance 1: 32.62
-Computational Performance 2: 22.89
-Computational Performance 3: 32.34
-Computational Performance 4: 158.9
-Computational Performance 5: 710.3
+Image Size: 5177.21
+Computational Performance 1: 33.19
+Computational Performance 2: 23.59
+Computational Performance 3: 33.33
+Computational Performance 4: 158.92
+Computational Performance 5: 707.47
