@@ -59,7 +59,7 @@ _10 of 768 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/IBM/materials](https://github.com/IBM/materials)
-- **Publication**: [https://www.nature.com/articles/s42004-025-01585-0](https://www.nature.com/articles/s42004-025-01585-0)
+- **Publication**: [https://doi.org/10.1038/s42004-025-01585-0](https://doi.org/10.1038/s42004-025-01585-0)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2025`
 - **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
