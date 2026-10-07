@@ -1,6 +1,6 @@
 # SMILES-based Transformer Encoder-Decoder
 
-Produces 768 features from SMI-TED, an encoder-decoder foundation model released openly for chemistry and pretrained on a very large corpus of molecular strings. Because the architecture retains a decoder, the same representation supports generation as well as property prediction, and the authors published several model sizes so that cost can be traded against accuracy. The embedding is general-purpose, with dimensions that carry no individually interpretable chemical meaning.
+Produces a 768-dimensional embedding with SMI-TED, the open encoder-decoder chemical foundation model that IBM pretrained on 91 million curated PubChem molecules, some four billion tokens. Soares and colleagues released a 289-million-parameter base network and an eight-expert mixture of the same size, and report competitive MoleculeNet results including the quantum properties of QM9. Reconstructing SMILES during pretraining gives the latent space chemical structure, but single dimensions mean nothing on their own.
 
 This model was incorporated on 2025-11-29.Last packaged on 2026-02-11.
 
