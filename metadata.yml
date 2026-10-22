@@ -2,13 +2,14 @@ Identifier: eos82v1
 Slug: smi-ted
 Status: Ready
 Title: SMILES-based Transformer Encoder-Decoder
-Description: Produces a 768-dimensional embedding with SMI-TED, the open encoder-decoder
-  chemical foundation model that IBM pretrained on 91 million curated PubChem molecules,
-  some four billion tokens. Soares and colleagues released a 289-million-parameter
-  base network and an eight-expert mixture of the same size, and report competitive
-  MoleculeNet results including the quantum properties of QM9. Reconstructing SMILES
-  during pretraining gives the latent space chemical structure, but single dimensions
-  mean nothing on their own.
+Description: Produces a 768-dimensional embedding with SMI-TED, the open 
+  encoder-decoder chemical foundation model that IBM pretrained on 91 million 
+  curated PubChem molecules, some four billion tokens. Soares and colleagues 
+  released a 289-million-parameter base network and an eight-expert mixture of 
+  the same size, and report competitive MoleculeNet results including the 
+  quantum properties of QM9. Reconstructing SMILES during pretraining gives the 
+  latent space chemical structure, but single dimensions mean nothing on their 
+  own.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +23,8 @@ Output:
   - Value
 Output Dimension: 768
 Output Consistency: Fixed
-Interpretation: 768 features encoding molecular structure from an encoder-decoder
-  chemistry foundation model.
+Interpretation: 768 features encoding molecular structure from an 
+  encoder-decoder chemistry foundation model.
 Tag:
   - Embedding
   - Descriptor
@@ -40,7 +41,7 @@ License: Apache-2.0
 Contributor: GemmaTuron
 Incorporation Date: '2025-11-29'
 Last Packaging Date: '2026-02-11'
-Release: v1.1.1
+Release: v1.1.2
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos82v1.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos82v1
 Docker Architecture:
