@@ -2,7 +2,8 @@
 
 Produces a 768-dimensional embedding with SMI-TED, the open encoder-decoder chemical foundation model that IBM pretrained on 91 million curated PubChem molecules, some four billion tokens. Soares and colleagues released a 289-million-parameter base network and an eight-expert mixture of the same size, and report competitive MoleculeNet results including the quantum properties of QM9. Reconstructing SMILES during pretraining gives the latent space chemical structure, but single dimensions mean nothing on their own.
 
-This model was incorporated on 2025-11-29.Last packaged on 2026-02-11.
+This model was incorporated on 2025-11-29.
+Last packaged on 2026-02-11.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 768 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos82v1](https://hub.docker.com/r/ersiliaos/eos82v1)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos82v1.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos82v1.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos82v1_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos82v1_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1103`
